@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#relogio, #cronometro {
+    font-size: 3em;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #e9f5ff;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 40px 0;
+}
+
+div {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#btPausar {
+    background-color: #ffc107;
+    color: #333;
+}
+
+#btPausar:hover {
+    background-color: #e0a800;
+}
+
+#btZerar {
+    background-color: #dc3545;
+}
+
+#btZerar:hover {
+    background-color: #c82333;
+}
